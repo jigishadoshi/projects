@@ -1,0 +1,119 @@
+footer{
+    background: $black;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+
+    a{
+        color: #fff;
+    }
+}
+
+
+
+.footer-grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px;
+    
+    
+
+    h4{
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+
+    .tile-list{
+        
+
+        .tile-flex{
+            display: flex;
+            font-size: 14px;
+            line-height: 1.4;
+            align-items: center;
+            
+    
+            .image-container{
+                width: 100%;
+                height: 100%;
+    
+                img{
+                    width: 100%;
+                }
+            }
+    
+            .info{
+                padding-left: 16px;
+                text-align: left;
+    
+             h3{
+                margin-bottom: 6px;
+                a{
+                    display: block;
+                    font-size: $font-sm-title;
+                    font-weight: $fw-medium;
+                    line-height: 1.4;
+                }
+
+                .post-date{
+                    font-size: 11px;
+                    line-height: 1;
+                    color: #767676;
+
+                }
+             }
+            }
+        }
+     }
+
+     ul{
+        padding-left: 0;
+     }
+
+     li>a{
+        font-size: $font-sm-title;
+        line-height: 30px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 10px;
+     }
+}
+
+.footer-grid1>div{
+    padding: 0 20px;
+}
+
+.footer-grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    padding: 20px;
+    
+    border-top: 1px solid rgba(255,255,255,0.1) ;
+
+    p{
+        font-size: $font-sm-title;
+        line-height: 1.6;
+    }
+
+    .contact-mail{
+        display: flex;
+        align-items: center;
+        gap: 2px;
+    }
+
+    .follow-links{
+        display: flex;
+        margin-top: 30px;
+
+        a{
+            background: rgba(255,255,255,0.03);
+            font-size: 14px;
+            border: 1px solid #444;
+            padding: 10px;
+            margin: 4px;
+            width: 38px;
+            // justify-content: center;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,48 @@
+header{
+   
+    width: 100%;
+    background: $white;
+    box-shadow: $base-box-shadow;
+}
+
+
+.social{
+    background: $black;
+    // margin-left: -33.33%;
+    // margin-right: -33.33%;
+    max-height: 28px;
+    
+    display: flex;
+    justify-content: flex-end;
+    padding: 4px;
+
+    a{
+        padding: 4px;
+       
+    }
+
+   
+}
+
+.logo{
+    margin: 28px 0 10px 0;
+}
+
+.menu-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+ul{
+    display: flex;
+    color: $black;
+
+    a{
+        display: flex;
+        gap: 4px;
+        margin: 0px 14px;
+        font-size: $font-sm;
+        font-weight: $fw-bold;
+    }
+}
+}
